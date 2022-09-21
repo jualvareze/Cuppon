@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/3d4fb0f23e.js" crossorigin="anonymous"></script>
     <title>Cuppon</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-success">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#">Navbar</a>
+                <a class="navbar-brand text-light fw-bolder text-uppercase ps-4" href="#">Cuppon</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav ms-auto">
                         <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                         <a class="nav-link text-light" href="#">Features</a>
                         <a class="nav-link text-light" href="#">Pricing</a>
@@ -32,65 +36,99 @@
             </div>
         </nav>
     </header>
-    <main class="container">
-        <div class="row">
-        <div class="card" style="width: 18rem;">
-            <img src="assets/imgs/cupon-1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    <main class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="card m-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 p-0" style="width: 25rem;">
+                <img src="assets/imgs/cupon-1.jpg" class="card-img-top" alt="Plumon">
+                <div class="card-body">
+                    <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+                    <p class="card-text">Plumones Manolino</p>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> 9191 Avenida Vitacura, Chile</p>
+                    <hr>
+                    <div class="text-end">
+                        <span class="">$45.990</span>
+                        <h5 class="text-success d-inline">$22.990</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 p-0" style="width: 25rem;">
+                <img src="assets/imgs/cupon-2.jpg" class="card-img-top" alt="Plumon">
+                <div class="card-body">
+                    <h5 class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+                    <p class="card-text">V for Vegan</p>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i>777 Jesse Pinkman, Chile</p>
+                    <hr>
+                    <div class="text-end">
+                        <span class="">$30.990</span>
+                        <h5 class="text-success d-inline">$12.990</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 p-0" style="width: 25rem;">
+                <img src="assets/imgs/cupon-3.jpg" class="card-img-top" alt="Plumon">
+                <div class="card-body">
+                    <h5 class="card-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+                    <p class="card-text">Clínica Dental Quijada</p>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i>1342, Blanco Encalada, Chile</p>
+                    <hr>
+                    <div class="text-end">
+                        <span class="">$300.000</span>
+                        <h5 class="text-success d-inline">$25.990</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 p-0" style="width: 25rem;">
+                <img src="assets/imgs/cupon-4.jpg" class="card-img-top" alt="Plumon">
+                <div class="card-body">
+                    <h5 class="card-title">Colación para 2 personas + postre (no incluye bebidas)</h5>
+                    <p class="card-text">Suricata almacen</p>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> 1071 Miguel Claro, Chile</p>
+                    <hr>
+                    <div class="text-end">
+                        <span class="">$4.200</span>
+                        <h5 class="text-success d-inline">$2.100</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 p-0" style="width: 25rem;">
+                <img src="assets/imgs/cupon-5.jpg" class="card-img-top" alt="Plumon">
+                <div class="card-body">
+                    <h5 class="card-title">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+                    <p class="card-text">Stukids Centro de Eventos</p>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> 133 El tranque, Chile</p>
+                    <hr>
+                    <div class="text-end">
+                        <span class="">$4.000</span>
+                        <h5 class="text-success d-inline">$2.500</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 p-0" style="width: 25rem;">
+                <img src="assets/imgs/cupon-6.jpg" class="card-img-top" alt="Plumon">
+                <div class="card-body">
+                    <h5 class="card-title">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+                    <p class="card-text">D-Latam Travel</p>
+                    <hr>
+                    <div class="text-end">
+                        <span class="">$45.990</span>
+                        <h5 class="text-success d-inline">$22.990</h5>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/imgs/cupon-2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/imgs/cupon-3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/imgs/cupon-4.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/imgs/cupon-5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/imgs/cupon-6.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    </div>
     </main>
-    <footer></footer>
+    <form class="text-center bg-success p-4">
+        <div class="container text-light">
+            <h3>Recibe cupones en tu correo</h3>
+            <input type="text" placeholder="Nombre" class="form-control col m-3">
+            <input type="text" placeholder="Correo Electronico" class="form-control col m-3">
+            <button type="button" class="btn btn-light col m-2" value="Enviar">Enviar</button>
+        </div>
+    </form>
+    <footer class="text-center">
+        <h3>Cuppon</h3>
+        <p>© 2018 Cuppon Latam .Todos los derechos reservados.</p>
+    </footer>
 </body>
 
 
